@@ -1,0 +1,31 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="HighScores">
+			<method name="ClosedHighScores"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="ClosedInstructions"/>
+			<method name="OpenHighScores"/>
+			<method name="OpenInstructions"/>
+			<method name="OpenSetting"/>
+			<method name="StartGame"/>
+		</type>
+		<type fullname="PauseButton">
+			<method name="Home"/>
+			<method name="Home"/>
+			<method name="Home"/>
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+		</type>
+		<type fullname="Setting">
+			<method name="ClosedSetting"/>
+		</type>
+	</assembly>
+</linker>
